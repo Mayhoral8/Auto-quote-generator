@@ -1,6 +1,4 @@
 'use-strict'
-const religion = document.querySelector('.religion');
-const motivation = document.querySelector('.motivation');
 const button =  document.querySelector('.button');
 
 const quotes = new Map([
@@ -40,11 +38,11 @@ const quotes = new Map([
         document.querySelector('.quoter').style.opacity = 0;
         }
         
-        setTimeout(() => fadeOut(), 8000)
+        setTimeout(() => fadeOut(), 4000)
     }
    
        
-        setInterval(() => getQuoteRg(), 10000)
+        setInterval(() => getQuoteRg(), 6000)
         
 
 
